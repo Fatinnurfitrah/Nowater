@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6a0a0; /* Light background from screenshot */
+}
+
+/* Header Section */
+.header-section {
+    background-color: #e94747; /* Dark gray background */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.header-section h1 {
+    font-size: 24px;
+}
+
+/* Navigation Menu */
+.header-section ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section ul li {
+    margin: 0 15px;
+}
+
+.header-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Red/Pinkish link seen in screenshot */
+.header-section ul li a:hover {
+    color: #ff4d6d;
+}
+
+/* Contact Button */
+.cta-button {
+    background-color: #ff4d6d; /* The pink/red color from your screenshot */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Main Content Area */
+.my-biography {
+    padding: 100px 50px;
+    min-height: 300px;
+}
+
+.my-biography h2 {
+    color: rgb(231, 225, 225); /* Blue heading seen in screenshot */
+}
+
+/* Green Divider Bar */
+.sidebar {
+    background-color: #a03434; /* Green bar from screenshot */
+    height: 50px;
+    width: 100%;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #e09090;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+}
